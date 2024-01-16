@@ -112,3 +112,10 @@ span[class*='type_'] {
     background-color: var(--toboo-mobile);
 }
 
+.type_website{
+    background-color: var(--toboo-website);
+}
+
+.type_sales{
+    background-color: var(--toboo-sales);
+}
