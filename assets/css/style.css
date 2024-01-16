@@ -15,9 +15,8 @@
 body{
     margin: 0;
     font-family: Ubuntu;
-    /* color: var(--toboo-text); */
 }
-
+/* #region header */
 .site_header{
     margin: 1rem 1.5rem;
     background-color: var(--toboo-primary);
@@ -31,6 +30,8 @@ body{
     font-size: 2.5rem;
     font-weight: bold;
 }
+/* #endregion header */
+
 
 .site_main{
     background-color: var(--toboo-bg);
@@ -46,8 +47,9 @@ body{
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+    color: var(--toboo-text);
 }
-
+/* #region add buttons */
 .buttons{
     padding: 1rem 2rem 0.5rem 2rem;
 }
@@ -71,7 +73,9 @@ hr{
     background-color: var(--toboo-bg);
     margin: 0;
 }
- 
+/* #endregion add buttons */ 
+
+/* #region tasks */
 .tasks{
     padding: 1rem 2rem 0.5rem 2rem;
 
@@ -81,14 +85,40 @@ h3{
     margin-bottom: 0.2rem;
 }
 
-.info_task{
+/* #region check and cross mark */
+.check{
+    margin-right: 7px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
     display: inline-block;
+    color: green;
+    border: 2px solid green;
+    border-radius: 50%;
+    font-weight: bolder;
 }
 
+.cross{
+    margin-right: 7px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+    font-weight: bolder;
+}
+/* #endregion check and cross mark */
+
+
 .info_task{
+    display: inline-block;
     font-weight: bold;
     padding-bottom: 2rem;
 }
+
+/* #region type of tasks */
 span[class*='type_'] {
     padding: 0.5rem;
     border-radius: 20px;
@@ -119,3 +149,7 @@ span[class*='type_'] {
 .type_sales{
     background-color: var(--toboo-sales);
 }
+/* #endregion type of tasks */
+
+/* #endregion tasks */
+

@@ -7,46 +7,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
 </head>
-<body> 	<!-- 9989  	10060 -->
+<body> 	
     <header class="site_header">
         <img src="./assets/img/Logo.png" alt="logo">
         <span>Toboolist</span>
     </header>
+    
     <main class="site_main">
         <div class="container">
+            <!-- add buttons section -->
             <div class="buttons">
             <button class="add_button">Add Task</button>
             <button class="add_button">Add Section</button>
             </div>
+            <!-- /add buttons section -->
             <hr>
+            <!-- task section -->
             <div class="tasks">
+            <!-- new task section -->
                 <section>
                    <h3> &#9662 New Task</h3>
-                   <div class="info_task">&#9989 Quarterly Newsletter</div>
+
+                   <span class="check">&check;</span>
+                   <div class="info_task"> Quarterly Newsletter</div>
                    <span class="type_editorial">Editorial</span>
                 </section>
+                <!-- /new task section -->
+
+                <!-- today task section -->
                 <section>
                     <h3> &#9662 Today</h3>
-                    <div class="info_task">&#9989 Recruiting blog post</div>
+
+                    <span class="check">&check;</span>
+                    <div class="info_task"> Recruiting blog post</div>
                     <span id="editorial" class="type_editorial">Editorial</span><br>
-                    <div class="info_task">&#9989 Mobile app launch</div>
+                    
+                    <span class="check">&check;</span>
+                    <div class="info_task"> Mobile app launch</div>
                     <span class="type_goals">Q1 Goals</span><br>
-                    <div class="info_task">&#10060 Interview John H.</div>
+                    
+                    <span class="cross">&cross;</span>
+                    <div class="info_task"> Interview John H.</div>
                     <span class="type_recruiting">Recruiting</span><br>
-                    <div class="info_task">&#9989 Summit update to mobile storefronts</div>
+                    
+                    <span class="check">&check;</span>
+                    <div class="info_task"> Summit update to mobile storefronts</div>
                     <span class="type_mobile">Mobile</span>
                  </section>
+                 <!-- /today task section -->
+
+                 <!-- upcoming task section -->
                  <section>
                     <h3> &#9662 Upcoming</h3>
-                    <div class="info_task">&#10060 Schedule meeting with Alex</div><br>
+                    
+                    <span class="cross">&cross;</span>
+                    <div class="info_task"> Schedule meeting with Alex</div><br>
+                    
+                    <span class="check">&check;</span>
                     <div class="info_task">&#9989 Homepage refresh</div>
                     <span class="type_website">Website</span><br>
+                    
+                    <span class="check">&check;</span>
                     <div class="info_task">&#9989 Onboard new Sales team members</div>
                     <span class="type_sales">Sales</span><br>
+                    
+                    <span class="check">&check;</span>
                     <div class="info_task">&#9989 Review editorial calendar</div>
                     <span class="type_editorial">Editorial</span>
                  </section>
-            
+                 <!-- upcoming task section -->
+
+            <!-- /task section -->
         </div>
     </main>
 </body>
