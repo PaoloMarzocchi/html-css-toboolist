@@ -36,4 +36,41 @@ body{
     background-color: var(--toboo-bg);
     width: 100vw;
     height: 100vh;
+    position: absolute;
 }
+
+.container{
+    background-color: var(--toobo-primary);
+    width: 40rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.buttons{
+    padding: 1rem 2rem 0.5rem 1rem;
+}
+.add_button{
+    color: rgba(211, 215, 219, 1);
+    background-color: var(--toobo-primary);
+    border: 1px solid rgba(211, 215, 219, 1);
+    border-radius: 10px;
+    padding: 0.4rem;
+}
+.add_button:hover{
+    color: var(--toobo-primary);
+    background-color: var(--toboo-editorial);
+    border: 1px solid var(--toboo-editorial);
+
+}
+
+hr{
+    height: 1px;
+    border: none;
+    background-color: var(--toboo-bg);
+    margin: 0;
+}
+ 
+
+
