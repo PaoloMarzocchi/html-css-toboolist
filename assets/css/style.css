@@ -49,7 +49,7 @@ body{
 }
 
 .buttons{
-    padding: 1rem 2rem 0.5rem 1rem;
+    padding: 1rem 2rem 0.5rem 2rem;
 }
 .add_button{
     color: rgba(211, 215, 219, 1);
@@ -72,5 +72,43 @@ hr{
     margin: 0;
 }
  
+.tasks{
+    padding: 1rem 2rem 0.5rem 2rem;
 
+}
+
+h3{
+    margin-bottom: 0.2rem;
+}
+
+.info_task{
+    display: inline-block;
+}
+
+.info_task{
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+span[class*='type_'] {
+    padding: 0.5rem;
+    border-radius: 20px;
+    font-size: 8px;
+    color: white;
+}
+
+.type_editorial{
+    background-color: var(--toboo-editorial);
+}
+
+.type_goals{
+    background-color: var(--toboo-goals);
+}
+
+.type_recruiting{
+    background-color: var(--toboo-recruiting);
+}
+
+.type_mobile{
+    background-color: var(--toboo-mobile);
+}
 
