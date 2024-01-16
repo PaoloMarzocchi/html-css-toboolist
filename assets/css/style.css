@@ -1,0 +1,15 @@
+/* #region color */
+:root{
+    --toboo-bg: rgba(246, 248, 249, 1);
+    --toboo-editorial:  rgba(71, 173, 241, 1);
+    --toboo-goals: rgba(156, 114, 228, 1);
+    --toboo-recruiting: rgba(100, 192, 169, 1);
+    --toboo-mobile: rgba(242, 158, 51, 1);
+    --toboo-website: rgba(216, 99, 161, 1);
+    --toboo-sales: rgba(176, 201, 38, 1);
+}
+
+body{
+    margin: 0;
+}
+    
