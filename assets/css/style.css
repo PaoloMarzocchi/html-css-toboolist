@@ -1,6 +1,8 @@
 /* #region color */
 :root{
-    --toboo-bg: rgba(246, 248, 249, 1);
+    --toobo-primary: rgba(255, 255, 255, 1);
+    --toboo-text: rgba(68, 73, 81, 1);
+    --toboo-bg: rgba(246, 248, 249, 1); 
     --toboo-editorial:  rgba(71, 173, 241, 1);
     --toboo-goals: rgba(156, 114, 228, 1);
     --toboo-recruiting: rgba(100, 192, 169, 1);
@@ -8,8 +10,30 @@
     --toboo-website: rgba(216, 99, 161, 1);
     --toboo-sales: rgba(176, 201, 38, 1);
 }
+/* #endregion color */
 
 body{
     margin: 0;
+    font-family: Ubuntu;
+    /* color: var(--toboo-text); */
 }
-    
+
+.site_header{
+    margin: 1rem 1.5rem;
+    background-color: var(--toboo-primary);
+}
+   
+.site_header > img{
+    vertical-align: top;
+}
+
+.site_header > span{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.site_main{
+    background-color: var(--toboo-bg);
+    width: 100vw;
+    height: 100vh;
+}
